@@ -49,6 +49,15 @@ $demetrio->aggiuntaCarrello($guinzaglio_nylon);
 $demetrio->aggiuntaCarrello($cuccia_legno_l);
 $demetrio->aggiuntaCarrello($cibo_coniglio_l);
 
+
+    try {
+        $demetrio->controlloCarta();
+    } catch (Exception $e) {
+        var_dump($e->getMessage());
+        echo "E' avvenuto un errore inaspettato";
+    }
+
+
 ?>
 
 <!DOCTYPE html>

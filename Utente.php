@@ -40,7 +40,8 @@ class Utente
         if ($this->anno < $anno_scadenza) {
             return "Carta Valida!";
         } else {
-            return "Carta Scaduta!";
+            // return "Carta Scaduta!";
+            throw new Exception("Carta non valida!");
         }
     }
 }
