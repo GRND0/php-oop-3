@@ -6,17 +6,17 @@ require_once __DIR__ . "/Utente.php";
 
 $catalogo = [];
 
-$cibo_salmone = new Cibo("Almanatura", "Cibo per gatti", 2.50, "Salmone", "150 Gr");
+$cibo_salmone = new Cibo("Almanatura", "Cibo per gatti", 2.50, "Salmone", "150 Gr", "Felini");
 $catalogo[] = $cibo_salmone;
-$cibo_salmone_l = new Cibo("Almanatura", "Cibo per gatti", 4.50, "Salmone", "300 Gr");
+$cibo_salmone_l = new Cibo("Almanatura", "Cibo per gatti", 4.50, "Salmone", "300 Gr", "Felini");
 $catalogo[] = $cibo_salmone_l;
-$cibo_pollo = new Cibo("Almanatura", "Cibo per gatti", 2.50, "Pollo", "150 Gr");
+$cibo_pollo = new Cibo("Almanatura", "Cibo per gatti", 2.50, "Pollo", "150 Gr","Felini");
 $catalogo[] = $cibo_pollo;
-$cibo_pollo_l = new Cibo("Almanatura", "Cibo per gatti", 4.50, "Pollo", "300 Gr");
+$cibo_pollo_l = new Cibo("Almanatura", "Cibo per gatti", 4.50, "Pollo", "300 Gr","Felini");
 $catalogo[] = $cibo_pollo_l;
-$cibo_coniglio = new Cibo("Almanatura", "Cibo per gatti", 2.50, "Coniglio", "150 Gr");
+$cibo_coniglio = new Cibo("Almanatura", "Cibo per gatti", 2.50, "Coniglio", "150 Gr","Cani");
 $catalogo[] = $cibo_coniglio;
-$cibo_coniglio_l = new Cibo("Almanatura", "Cibo per gatti", 4.50, "Coniglio", "300 Gr");
+$cibo_coniglio_l = new Cibo("Almanatura", "Cibo per gatti", 4.50, "Coniglio", "300 Gr","Cani");
 $catalogo[] = $cibo_coniglio_l;
 
 $cuccia_plastica = new Cucce("AnimalHouse", "Cuccia per Cani", 50, "100 x 50 cm", "Plastica");
